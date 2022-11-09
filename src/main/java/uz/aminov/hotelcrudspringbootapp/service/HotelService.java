@@ -1,6 +1,5 @@
 package uz.aminov.hotelcrudspringbootapp.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -12,8 +11,7 @@ import uz.aminov.hotelcrudspringbootapp.repository.HotelRepository;
 
 @Service
 public class HotelService {
-    public final HotelRepository hotelRepository;
-
+    final HotelRepository hotelRepository;
 
     public HotelService(HotelRepository hotelRepository) {
         this.hotelRepository = hotelRepository;
@@ -27,5 +25,9 @@ public class HotelService {
 
     public Hotel addHotel(Hotel hotel){
         return hotelRepository.save(hotel);
+    }
+
+    public Hotel getHotelById(Long id){
+        return hotelRepository.findById(id).orElseThrow();
     }
 }

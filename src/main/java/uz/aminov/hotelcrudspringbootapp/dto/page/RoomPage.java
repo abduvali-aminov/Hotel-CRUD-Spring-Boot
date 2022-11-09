@@ -9,8 +9,8 @@ import org.springframework.data.domain.Sort;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class HotelPage {
-    private int pageNumber = 0;
+public class RoomPage {
+    public int pageNumber = 0;
     private int pageSize = 10;
     private Sort.Direction sortDirection = Sort.Direction.ASC;
     private String sortBy = "id";
