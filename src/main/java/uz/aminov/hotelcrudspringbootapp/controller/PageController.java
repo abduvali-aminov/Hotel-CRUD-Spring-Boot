@@ -9,8 +9,6 @@ public class PageController {
 
     @GetMapping("/")
     public ModelAndView getHotelPage(){
-        ModelAndView modelAndView = new ModelAndView("hotel");
-        modelAndView.addObject("var2", 23);
-        return modelAndView;
+        return new ModelAndView("hotel");
     }
 }
