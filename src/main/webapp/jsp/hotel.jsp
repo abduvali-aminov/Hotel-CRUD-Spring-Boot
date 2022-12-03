@@ -10,36 +10,36 @@
     <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
     <title>User List - Vuexy - Bootstrap HTML admin template</title>
-    <link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath}/resources/app-assets/images/ico/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath}/app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/vendors.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/vendors.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/forms/select/select2.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/tables/datatable/responsive.bootstrap5.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/tables/datatable/buttons.bootstrap5.min.css">
-    <link rel="stylesheetr" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/tables/datatable/rowGroup.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/vendors/css/forms/select/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/vendors/css/tables/datatable/responsive.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/vendors/css/tables/datatable/buttons.bootstrap5.min.css">
+    <link rel="stylesheetr" type="text/css" href="${pageContext.request.contextPath}/app-assets/vendors/css/tables/datatable/rowGroup.bootstrap5.min.css">
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/bootstrap-extended.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/colors.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/components.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/themes/dark-layout.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/themes/bordered-layout.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/themes/semi-dark-layout.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/css/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/css/colors.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/css/components.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/css/themes/dark-layout.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/css/themes/bordered-layout.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/css/themes/semi-dark-layout.min.css">
 
 
     <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/core/menu/menu-types/horizontal-menu.min.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/forms/form-validation.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/css/core/menu/menu-types/horizontal-menu.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/app-assets/css/plugins/forms/form-validation.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/style.css">
     <!-- END: Custom CSS-->
 
   </head>
@@ -204,36 +204,36 @@
 
 
     <!-- BEGIN: Vendor JS-->
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/vendors.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/vendors.min.js"></script>
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/ui/jquery.sticky.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/forms/select/select2.full.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/dataTables.bootstrap5.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/responsive.bootstrap5.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/jszip.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/pdfmake.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/vfs_fonts.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/buttons.html5.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/buttons.print.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/forms/cleave/cleave.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/vendors/js/forms/cleave/addons/cleave-phone.us.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/ui/jquery.sticky.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/dataTables.bootstrap5.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/responsive.bootstrap5.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/jszip.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/pdfmake.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/vfs_fonts.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/buttons.html5.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/buttons.print.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/forms/cleave/cleave.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/vendors/js/forms/cleave/addons/cleave-phone.us.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
-    <script src="${pageContext.request.contextPath}/resources/app-assets/js/core/app-menu.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/js/core/app.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/app-assets/js/scripts/customizer.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/js/core/app-menu.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/js/core/app.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/js/scripts/customizer.min.js"></script>
     <!-- END: Theme JS-->
 
     <!-- BEGIN: Page JS-->
-    <script src="${pageContext.request.contextPath}/resources/app-assets/js/scripts/pages/app-user-list.min.js"></script>
+    <script src="${pageContext.request.contextPath}/app-assets/js/scripts/pages/app-user-list.min.js"></script>
     <!-- END: Page JS-->
 
     <script>
